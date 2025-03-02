@@ -29,7 +29,7 @@ for (let button of buttons) {
 
 
         let p = document.createElement('p');
-        p.classList.add('bg-[#f4f7ff]', 'p-2', 'mt-2', 'rounded-xl');
+        p.classList.add('bg-[#f4f7ff]', 'p-2', 'm-3', 'mt-4', 'rounded-xl');
         let paragraph = `You have Completed The Task ${title} at ${currentTime}`;
         p.innerText = paragraph;
 
